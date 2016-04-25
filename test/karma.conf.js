@@ -34,12 +34,6 @@ module.exports = function(config) {
       'bower_components/ngReact/ngReact.js',
       'bower_components/immutable/dist/immutable.js',
       'bower_components/underscore/underscore.js',
-      'bower_components/classnames/index.js',
-      'bower_components/classnames/bind.js',
-      'bower_components/classnames/dedupe.js',
-      'bower_components/react-input-autosize/dist/react-input-autosize.js',
-      'bower_components/react-select/dist/react-select.js',
-      'bower_components/react-widgets/dist/react-widgets.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

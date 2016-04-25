@@ -1,12 +1,11 @@
 'use strict';
-
+var app = angular.module('ReactFormEntry');
 /**
  * @ngdoc directive
  * @name ReactFormEntry.directive:formEntry
  * @description
  * # formEntry
  */
-angular.module('ReactFormEntry')
-.directive( 'formEntry', function( reactDirective ) {
-  return reactDirective( FormEntry );
-} );
+ app.directive( 'formEntry', function( reactDirective ) {
+   return reactDirective(FormEntry);
+ } );
